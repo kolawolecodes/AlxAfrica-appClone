@@ -1,0 +1,31 @@
+.partnership {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    color: #fff;
+    font-weight: 100;
+
+    .partnership_text {
+        font-weight: 100px;
+    }
+
+    .partner__image {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        width: 60%;
+        margin-left: 20px;
+
+        .aIxeploreImg {
+            width: 150px;
+            border: white;
+        }
+
+        .awsImg {
+            background: #fff;
+            width: 150px;
+            border-radius: 5px;
+        }
+    }
+}

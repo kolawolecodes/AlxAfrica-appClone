@@ -1,0 +1,216 @@
+.header_container {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    .bgdiv {
+        position: absolute;
+        top: 0;
+        height: 80px;
+        width: 100%;
+        background: #011432;
+        z-index: -1;
+    }
+    .header {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto auto;
+        font-family: "Poppins", sans-serif;
+        .alx_logo {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+        }
+        .master_card_logo {
+            width: 70px;
+        }
+        .main_header__Navs_wrapper {
+            width: 45%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto auto;
+            list-style: none;
+            color: whitesmoke;
+
+            .program_wrapper,
+            .admission_wrapper {
+                display: flex;
+                flex-direction: column;
+                
+
+                .Nav__title {
+                    font-size: 16px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+                .programmes_dop_wrapper {
+                    position: absolute;
+                    top: 52px;
+                    left: 450px;
+                    background: white;
+                    /* width: 250px; */
+                    list-style: none;
+                    /* padding: 5px; */
+                    color: black;
+                    border: 2px solid #0d6efd;
+                    
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: -0.5rem;
+                        left: 1.5rem;
+                        width: 15px;
+                        height: 15px;
+                        transform: rotate(45deg);
+                        background: white;
+                        /* border: 3px solid #0d6efd; */
+                    }
+                    >li {
+                        width: 250px;
+                        margin-top: 1rem;
+                        padding: 8px;
+                        background: white;
+                        color: black;
+                        width: 250px; 
+                    }
+                    .program__links {
+                        padding: 5px;
+                        margin-bottom: 0.8rem;
+                        font-weight: 500;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+            .admission_wrapper {
+                .admission_dop_wrapper {
+                    top: 52px;
+                    left: 670px;
+                    position: absolute;
+                    background: white;
+                    list-style: none;
+                    color: black;
+                    border: 2px solid #0d6efd;
+                    
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: -0.5rem;
+                        left: 1.5rem;
+                        width: 15px;
+                        height: 15px;
+                        transform: rotate(45deg);
+                        background: white;
+                    }
+
+                    > li {
+                        width: 200px;
+                        padding: 8px;
+                        margin-top: 1rem;
+                        /* padding: 2px; */
+                        font-size: 16px;
+                        color: #262626;
+                    }
+                    .admission__links {
+                        padding: 5px;
+                        margin-bottom: 0.8rem;
+                        font-weight: 500;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.abouts_wrapper {
+    display: flex;
+    flex-direction: column;
+    .Nav__title {
+        font-size: 16px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .abouts_dop_wrapper {
+        top: 52px;
+        left: 840px;
+        position: absolute;
+        background: white;
+        list-style: none;
+        color: #262626;
+        border: 2px solid #0d6efd;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -0.5rem;
+            left: 1.5rem;
+            width: 15px;
+            height: 15px;
+            transform: rotate(45deg);
+            background: white;
+        }
+        >li {
+            width: 150px;
+            padding: 8px;
+            margin-top: 1rem;
+            padding: 2px;
+            font-size: 16px;
+            color: #262626;
+        }
+        .about__links {
+            padding: 5px;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+        }
+    }
+}
+
+.media_wrapper {
+    display: flex;
+    flex-direction: column;
+    .Nav__title {
+        font-size: 16px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .media_dop_wrapper {
+        top: 52px;
+        left: 1000px;
+        position: absolute;
+        background: white;
+        list-style: none;
+        color: #262626;
+        border: 2px solid #0d6efd;
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -0.5rem;
+            left: 0.5rem;
+            width: 15px;
+            height: 15px;
+            transform: rotate(45deg);
+            background: white;
+        }
+
+        >li {
+            margin-top: 1rem;
+            padding: 2px;
+            font-size: 16px;
+            color: #262626;
+            width: 150px;
+            padding: 5px;
+        }
+        .media__links {
+            padding: 5px;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+        }
+    }
+}

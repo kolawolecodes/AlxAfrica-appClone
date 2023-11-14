@@ -1,0 +1,48 @@
+.admissions_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: solid green;
+
+    .admissionss_dop_wrapper {
+        top: 55px;
+        left: 700px;
+        position: absolute;
+        background: white;
+        width: 200px;
+        list-style: none;
+        padding: 5px;
+        color: black;
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -0.5rem;
+            right: 2.5rem;
+            width: 15px;
+            height: 15px;
+            transform: rotate(45deg);
+            background: white;
+
+        }
+
+        > li {
+            margin-top: 1rem;
+            padding: 2px;
+            color: black;
+        }
+
+        .program__links {
+            padding: 5px;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+        }
+    }
+
+    .Nav__title {
+        border: solid red;
+        text-align: center;
+    }
+}

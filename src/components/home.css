@@ -1,0 +1,188 @@
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+    /* background-size: cover; */
+   
+
+
+    .banner_cover {
+        /* position: absolute; */
+        /* top: 0; */
+        width: 100%;
+        height: 650px;
+        background-image: url("https://www.alxafrica.com/wp-content/uploads/2023/10/home-banner-scaled.jpg");
+        background-size: cover;
+
+        .container {
+            width: 80%;
+            height: 400px;
+            margin: 80px auto;
+
+            .inner_container {
+                height: inherit;
+                display: flex;
+                color: #fff;
+
+                .main_content_container {
+                    width: 50%;
+                    padding-left: 20px;
+
+                    .content_title {
+                        font-size: 27px; 
+                        line-height: 4rem;
+                        margin-bottom: -20px;
+                        letter-spacing: 3px;
+                    }
+                    .content_details {
+                        font-size: 25px;
+                        line-height: 2.5rem;
+                    }
+
+                    #content_btn {
+                        /* position:fixed; */
+                        width: 40%;
+                        /* margin-top: 50px; */
+                        background: #05f283;
+                        color: #002b56;
+                        padding: 12px 60px 12px 50px;
+
+                        border-radius: 20px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        cursor: pointer;
+
+                        &:hover {
+                            background: #fcb900;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            top: -0.5rem;
+                            right: 2.5rem;
+                            width: 20px;
+                            height: 20px;
+                            background: white;
+                            transform: rotate(45deg);
+                        }
+
+
+                        /* &::after {
+                            position: absolute;
+                            right: 15px;
+                            top: 50%;
+                            display: inline-flex;
+                            content: "";
+                            border: none;
+                            height: 18px;
+                            width: 25px;
+                            margin: 0;
+                            background: url("data:image/svg+xml,%3Csvg fill='%23262626' xmlns='…-45.3 0s-12.5 32.8 0 45.3l160 160z'/%3E%3C/svg%3E")
+                        } */
+                    }
+
+                    #content_btn_dropdown {
+                        position: absolute;
+                        top: 415px;
+                        left: 133px;
+                        background: white;
+                        color: #262626;
+                        list-style: none;
+                        z-index: 2;
+                        visibility: hidden;
+
+                        .openExp {
+                            visibility: visible;
+                        }
+                       
+                        /* margin-left: 5px; */
+
+                        > h3 {
+                            font-size: 1.5rem;
+                            width: 90%;
+                            margin: 0;
+                            padding: 10px;
+                            margin-buttom: -40px;
+                            background: #05f283;
+                            z-index: 2;
+                        }
+
+                        > li {
+                            font-size: 1.2rem;
+                            /* width: 80%; */
+                            /* padding: 10px; */
+                            /* width: 90%; */
+                            border-top: 1px solid grey;
+                            padding: 10px;
+                            background: white;
+                            width: 318px;
+
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                top: -0.5rem;
+                                right: 2.5rem;
+                                width: 20px;
+                                height: 20px;
+                                background: white;
+                                transform: rotate(45deg);
+                                
+                            }
+
+                            &:hover {
+                                background: #262626;
+                                color: #05f283;
+                            }
+                        }
+
+                        /* &::before {
+                            content: "";
+                            position: absolute;
+                            top: -0.5rem;
+                            right: 2.5rem;
+                            width: 20px;
+                            height: 20px;
+                            background: white;
+                            transform: rotate(45deg);
+                            
+                        } */
+                    }
+                }
+            }
+        }
+
+        .partnership__wrapper {
+            width: 55%;
+            margin-top: -80px;
+        }
+    }
+
+    .RegisterBanner_container {
+        width: 80%;
+        margin: auto auto;
+
+        .banner_title {
+            text-align: center;
+            font-size: 2.8rem;
+            font-weight: 400;
+            color: #262626;
+             margin-top: 60px;
+
+            > span {
+                font-size: 3rem;
+            }
+        }
+
+        .regist_collection {
+            margin-top: 60px;
+            display: flex;
+        }
+    }
+
+}
+
+
